@@ -67,7 +67,7 @@ DrRacket is a development environment for Racket. If you're not familiar with Em
 @tt{Raco} is the "Racket command object". It provides access to useful functions that fall outside the Racket interpreter. You access these commands by running @tt{raco <commandname>}. Commands include:
 
 @itemlist[
-        @item{@tt{make} to compile source to byte-code. Byte-code doesn't run any faster but it does load faster, which is essential for large projects.}
+        @item{@tt{make} to compile source to byte-code. Byte-code doesn't run any faster but it does load faster, which is useful for large projects.}
 
         @item{@tt{docs} to view help on a topic.}
 
@@ -75,3 +75,16 @@ DrRacket is a development environment for Racket. If you're not familiar with Em
 ]
 
 @section{Racket Languages}
+
+To give you an idea of the flexibility of Racket, here are some of the languages included with the Racket distribution:
+
+@itemlist[
+        @item{@bold{Typed Racket} is a statically typed version of Racket. Using Typed Racket gains use compile-time checking and additional speed, at the cost of foregoing some language features that aren't (currently) compatible with Typed Racket's type system. Typed Racket and Racket code, like all Racket languages, are fully interoperable.}
+
+        @item{@bold{FrTime} is a language for writing interactive programs using a style known as functional reactive programming.}
+
+        @item{@bold{R6RS Scheme} is the Scheme language specified in the R6RS standard.}
+
+        @item{@bold{Datalog} is a logic programming language in the style of Prolog.}
+]
+
