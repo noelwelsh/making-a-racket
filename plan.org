@@ -1,9 +1,9 @@
 #+Title: Making a Racket
 * Getting Started
-** What is Racket
-*** Racket as a Scheme
+** Why Racket
 *** Racket as a multiparadigm language
 *** Racket as a language eco-system
+*** Racket as a Scheme
 ** What is This Book About?
 *** Patterns, Pragmatics, and Processes
 *** Fun
@@ -13,12 +13,14 @@
 **** Current Releases
 **** Nightly Builds
 **** Building From Source
-*** First Program
+*** Setting up Racket
+    - Choosing a language
+*** Setting up Emacs
 ** The Racket System
 *** Racket 
 *** DrRacket
-**** Emacs
 *** Raco
+*** planet
 *** Help
 ** Racket Languages
 *** Racket
@@ -46,7 +48,9 @@
   - Parameters
 * Building Steam
   Making a build system
-* 
+* Telling the World
+  An offline blog system
+  Files, string munging, HTML as sexp, quoting
 * Optimisation
   - Optimisation can be either algorithmic, or making the best use of the machine facilities. We're looking at the later here. Algorithmic optimisation is out of scope.
   - DCT
